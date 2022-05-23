@@ -1,0 +1,135 @@
+Sample Log
+
+11/05/2021 21:13:57.f Starting sever
+
+11/05/2021 21:13:59.f Starting Quentin McKnights Server
+
+11/05/2021 21:13:59.f Connection Established
+
+11/05/2021 21:13:59.f Sent: 200 Welcome to Quentin's McKnights CS472 FTP sever
+
+11/05/2021 21:14:04.f Received: USER qtm23
+
+11/05/2021 21:14:04.f Sent: 331 Please Provide Password
+
+11/05/2021 21:14:10.f Received: PASS 1
+
+11/05/2021 21:14:10.f Sent: 230 Successful Login
+
+11/05/2021 21:14:13.f Received: PWD 
+
+11/05/2021 21:14:13.f Sent: 257 /Users/quentinmcknight/PycharmProjects/HW3_FTP_SEVER
+
+11/05/2021 21:14:16.f Received: PWD 
+
+11/05/2021 21:14:16.f Sent: 257 /Users/quentinmcknight/PycharmProjects/HW3_FTP_SEVER
+
+11/05/2021 21:14:26.f Received: PASV 
+
+11/05/2021 21:14:26.f Sent: 277 Entering Passive Mode (127,0,0,1,243,127)
+
+11/05/2021 21:14:26.f Received: LIST 
+
+11/05/2021 21:14:26.f Connection Established
+
+11/05/2021 21:14:26.f Sent: total 48
+-rw-r--r--  1 quentinmcknight  staff  17053 Nov  5 21:13 HW3_FTP_SERVER.py
+-rw-r--r--  1 quentinmcknight  staff   2253 Nov  5 21:14 sample.log
+drwxr-xr-x  7 quentinmcknight  staff    224 Nov  5 20:59 venv
+
+
+11/05/2021 21:14:26.f Sent: 150 prepare for data
+
+11/05/2021 21:14:26.f Sent: 226 Successful transfer
+
+11/05/2021 21:14:46.f Received: EPSV 
+
+11/05/2021 21:14:46.f Sent: 227 (|1|127.0.0.1|62338|)
+
+11/05/2021 21:14:50.f Received: STOR PAIN
+
+11/05/2021 21:14:50.f Connection Established
+
+11/05/2021 21:14:50.f Sent: 150 prepare for data
+
+11/05/2021 21:14:50.f Receiving the file: PAIN
+
+11/05/2021 21:14:50.f This data was received: I am in so much pain cause of this HW LOL
+
+11/05/2021 21:14:50.f Sent: 226 Successful transfer
+
+11/05/2021 21:15:04.f Received: PASV 
+
+11/05/2021 21:15:04.f Sent: 277 Entering Passive Mode (127,0,0,1,243,136)
+
+11/05/2021 21:15:12.f Received: RETR sample.log
+
+11/05/2021 21:15:12.f Connection Established
+
+11/05/2021 21:15:12.f Sent: 150 prepare for data
+
+
+
+11/05/2021 21:15:12.f Sent: 226 Successful transfer
+
+11/05/2021 21:15:26.f Received: CWD /Users
+
+11/05/2021 21:15:26.f Sent: 250 successful directory change to: /Users
+
+11/05/2021 21:15:34.f Received: CWD w
+
+11/05/2021 21:15:34.f Sent: 550 Unsuccessful CWD
+
+11/05/2021 21:15:56.f Received: CWD /Users/quentinmcknight/PycharmProjects/HW3_FTP_SEVER
+
+11/05/2021 21:15:56.f Sent: 250 successful directory change to: /Users/quentinmcknight/PycharmProjects/HW3_FTP_SEVER
+
+11/05/2021 21:16:04.f Received: QUIT
+
+11/05/2021 21:16:04.f Sent: closing connection
+11/05/2021 22:24:58.f Starting sever
+
+11/05/2021 22:25:03.f Starting Quentin McKnights Server
+
+11/05/2021 22:25:03.f Connection Established
+
+11/05/2021 22:25:03.f Sent: 200 Welcome to Quentin's McKnights CS472 FTP sever
+
+11/05/2021 22:25:07.f Received: USER qtm23
+
+11/05/2021 22:25:07.f Sent: 331 Please Provide Password
+
+11/05/2021 22:25:08.f Received: PASS 1
+
+11/05/2021 22:25:08.f Sent: 230 Successful Login
+
+11/05/2021 22:25:18.f Received: PASV 
+
+11/05/2021 22:25:19.f Sent: 277 Entering Passive Mode (127,0,0,1,246,66)
+
+11/05/2021 22:25:19.f Received: LIST 
+
+11/05/2021 22:25:19.f Connection Established
+
+11/05/2021 22:25:19.f Sent: total 6512
+-rw-r--r--  1 quentinmcknight  staff    17389 Nov  5 22:24 HW3_FTP_SERVER.py
+-rw-r--r--  1 quentinmcknight  staff      133 Nov  5 21:20 PAIN
+-rw-r--r--@ 1 quentinmcknight  staff  3283875 Nov  5 22:06 QMDFA.pdf
+-rw-r--r--  1 quentinmcknight  staff     3689 Nov  5 21:51 Question and Extra Credit
+-rw-r--r--  1 quentinmcknight  staff    10934 Nov  5 21:21 Test_Client_QM.py
+-rw-r--r--  1 quentinmcknight  staff      460 Nov  5 22:25 myapp.log
+-rw-r--r--  1 quentinmcknight  staff     3067 Nov  5 22:25 sample.log
+drwxr-xr-x  7 quentinmcknight  staff      224 Nov  5 21:24 venv
+
+
+11/05/2021 22:25:19.f Sent: 150 prepare for data
+
+11/05/2021 22:25:19.f Sent: 226 Successful transfer
+
+11/05/2021 22:25:27.f Received: PWD 
+
+11/05/2021 22:25:27.f Sent: 257 current working Directory is: /Users/quentinmcknight/PycharmProjects/HW3_FTP_SEVER
+
+11/05/2021 22:25:35.f Received: QUIT
+
+11/05/2021 22:25:35.f Sent: closing connection

@@ -1,0 +1,50 @@
+1.Do you think that someone could hack into your FTP server? Why or why not? Through
+what methods?
+
+do you think you could hack into FTP
+
+Yes I do think they could, i leave alot of open recv that are waiting for the next client cmd to come through so while
+they are left open waiting i belive you could hack it that way. If someone was able to get acess to my sever code they would find
+the list of usernames and passwords. I dont have any SSL implemented over my TCP connection so there is no security provided via
+my client sever connection or my data connection so anyone could during the middle process recieve my bytes pretty easily. I constanly
+have open listens in the begginging of my servere and during my data connection and there really is no way that i verify that the person connected
+to those open listen is the same client or a secure client. If somoene where to intercept the message and get the port that im listening on they could easliy hack in
+FTP has no contermeasures to prevent ease dropping if i wanted a more secure sever it would be a better bet to use SFTP. Also the data is not encrypted. Also FTP
+has no way of detecting if there is a middle man waiting.
+
+Some of the methods you could use to hack my server would be
+
+    1. packet capture/sniffing all transmmions are redabile via the network and anyone who is connected to it for example wire shark can be used to see the contents
+    of the data and what commands are being sent. P
+    2. Brute force attack, if a hacker where to continusaly check for frequently used usernames and passwords they could hack in
+    3. Port stealing. If they were to intercept or guess the next open port they could hack in and steal data
+    4. Through any of the data connection there is no form of verfiction of who is connecting I do not check the mac address or if it is the same client.
+
+
+
+
+2. EXTRA CREDIT: Critique how FTP solves the problem of file transfer – what is good?
+What is bad? What is weird?
+what is good
+1. very simply it provides a relabile and quick way of file transfer between a client and a server
+2. I have noticed that it can tranfer pretty big files very quickly so its fast and can send alot of data
+3. if multi threaded it can deal with mulitiple clients at once and send vast amount of data to alot of different end systems which can be good
+for big companies
+
+whats bad:
+there is no security and is very vunerable to attacks as explained above
+not all servers and clients are the same and if a client cant hanlde how the data is sent it can cause issues
+its not complient with alot of internet rules so when compliance rules apply to companies it fails a lot of them so its not very practical
+
+whats weird:
+I think the werid thing is that there are two connections that are open one for client request and sever repsonces and one for data. Not a bad thing I just thought its werid
+I dont really feel like there is a standization to them like you can take a lot of short cuts and it will work even if its not right.
+its hard to error check sometimes youll get erros that you just wont understand
+There is a lot of logical order to them and if a user doesnt know it will be hard to interact with the system
+
+
+3. EXTRA CREDIT: How hard would it be to make FTP use one channel (both command and
+data over the same socket) instead of two?
+I think it would be pretty hard because you couldnt use the FTP protacl and you would have to define a new protocal
+a new RFC and a new set of rules logic DFA. It wouldnt just be a few changes in your code but a entire new approach to
+how you would set up your server. It would essintally not be FTP so I belive it would make the problem alot more complex.

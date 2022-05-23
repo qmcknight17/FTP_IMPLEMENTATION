@@ -1,0 +1,67 @@
+11/22/2021 18:10:09.f Starting sever
+
+11/22/2021 18:10:23.f Starting Quentin McKnights Server
+
+11/22/2021 18:10:23.f Connection Established
+
+11/22/2021 18:10:23.f Sent: 200 Welcome to Quentin's McKnights CS472 FTP sever
+
+11/22/2021 18:10:27.f Received: USER qtm23
+
+11/22/2021 18:10:27.f Sent: 331 Please Provide Password
+
+11/22/2021 18:10:27.f Received: PASS 1
+
+11/22/2021 18:10:27.f Sent: 230 Successful Login
+
+11/22/2021 18:10:40.f Received: PASV 
+
+11/22/2021 18:10:40.f Sent: 277 Entering Passive Mode (127,0,0,1,230,104)
+
+11/22/2021 18:10:40.f Received: LIST 
+
+11/22/2021 18:12:11.f Starting sever
+
+11/22/2021 18:12:41.f Starting Quentin McKnights Server
+
+11/22/2021 18:12:41.f Connection Established
+
+11/22/2021 18:12:41.f Sent: 200 Welcome to Quentin's McKnights CS472 FTP sever
+
+11/22/2021 18:12:45.f Received: USER qtm23
+
+11/22/2021 18:12:45.f Sent: 331 Please Provide Password
+
+11/22/2021 18:12:46.f Received: PASS 1
+
+11/22/2021 18:12:46.f Sent: 230 Successful Login
+
+11/22/2021 18:12:58.f Received: PASV 
+
+11/22/2021 18:12:58.f Sent: 277 Entering Passive Mode (127,0,0,1,231,33)
+
+11/22/2021 18:12:58.f Received: LIST 
+
+11/22/2021 18:12:58.f Connection Established
+
+11/22/2021 18:12:58.f Sent: total 6520
+-rw-r--r--  1 quentinmcknight  staff    17389 Nov 22 18:11 HW3_FTP_SERVER.py
+-rw-r--r--  1 quentinmcknight  staff      133 Nov  5 21:20 PAIN
+-rw-r--r--@ 1 quentinmcknight  staff  3283875 Nov  5 22:06 QMDFA.pdf
+-rw-r--r--  1 quentinmcknight  staff     3689 Nov  5 21:51 Question and Extra Credit
+-rw-r--r--  1 quentinmcknight  staff    10934 Nov 22 18:12 Test_Client_QM.py
+-rw-r--r--  1 quentinmcknight  staff     2831 Nov 22 18:12 myapp.log
+-rw-r--r--  1 quentinmcknight  staff     4038 Nov  5 22:25 sample.log
+-rw-r--r--  1 quentinmcknight  staff     1183 Nov 22 18:12 sever.log
+drwxr-xr-x  7 quentinmcknight  staff      224 Nov  5 21:24 venv
+
+
+11/22/2021 18:12:58.f Sent: 150 prepare for data
+
+11/22/2021 18:12:58.f Sent: 226 Successful transfer
+
+11/22/2021 18:13:23.f Received: 
+
+11/22/2021 18:13:23.f Sent: 500 Syntax error, command unrecognized.
+11/22/2021 18:13:23.f ERROR: [Errno 54] Connection reset by peer
+11/22/2021 18:13:23.f unable to receive command to the client

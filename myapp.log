@@ -1,0 +1,142 @@
+11/22/2021 18:03:42.f Connecting to: 127.0.0.1
+
+11/22/2021 18:03:46.f Sent: USER qtm
+
+11/22/2021 18:03:46.f Received: b'530 Invalid Login\r\n'
+
+11/22/2021 18:03:49.f Sent: USER qtm23
+
+11/22/2021 18:03:49.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:03:51.f Sent: PASS 1
+
+11/22/2021 18:03:51.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:04:07.f Sent: PASV 
+
+11/22/2021 18:04:07.f Received: b'277 Entering Passive Mode (127,0,0,1,230,48)\r\n'
+
+11/22/2021 18:04:07.f Sent: LIST 
+
+11/22/2021 18:04:47.f Connecting to: 127.0.0.1
+
+11/22/2021 18:04:53.f Sent: USER qtm23
+
+11/22/2021 18:04:53.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:04:54.f Sent: PASS 1
+
+11/22/2021 18:04:54.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:05:11.f Sent: PASV 
+
+11/22/2021 18:05:11.f Received: b'277 Entering Passive Mode (127,0,0,1,230,62)\r\n'
+
+11/22/2021 18:05:11.f Sent: PWD 
+
+11/22/2021 18:05:40.f Connecting to: 127.0.0.1
+
+11/22/2021 18:05:44.f Sent: USER qtm23
+
+11/22/2021 18:05:44.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:05:45.f Sent: PASS 1
+
+11/22/2021 18:05:45.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:05:57.f Sent: PASV 
+
+11/22/2021 18:05:57.f Received: b'277 Entering Passive Mode (127,0,0,1,230,67)\r\n'
+
+11/22/2021 18:05:57.f Sent: LIST 
+
+11/22/2021 18:06:58.f Connecting to: 127.0.0.1
+
+11/22/2021 18:07:03.f Sent: USER qtm23
+
+11/22/2021 18:07:03.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:07:04.f Sent: PASS 1
+
+11/22/2021 18:07:04.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:07:14.f Sent: PWD 
+
+11/22/2021 18:07:14.f Received: b'257 current working Directory is: /Users/quentinmcknight/PycharmProjects/CS472_HW4/venv\r\n'
+
+11/22/2021 18:07:29.f Sent: EPSV 
+
+11/22/2021 18:07:29.f Received: b'227 Entering Passive Mode (|1|127.0.0.1|58965|)\r\n'
+
+11/22/2021 18:07:31.f Sent: LIST 
+
+11/22/2021 18:08:16.f Connecting to: 127.0.0.1
+
+11/22/2021 18:10:23.f Connecting to: 127.0.0.1
+
+11/22/2021 18:10:27.f Sent: USER qtm23
+
+11/22/2021 18:10:27.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:10:27.f Sent: PASS 1
+
+11/22/2021 18:10:27.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:10:40.f Sent: PASV 
+
+11/22/2021 18:10:40.f Received: b'277 Entering Passive Mode (127,0,0,1,230,104)\r\n'
+
+11/22/2021 18:10:40.f Sent: LIST 
+
+11/22/2021 18:12:41.f Connecting to: 127.0.0.1
+
+11/22/2021 18:12:45.f Sent: USER qtm23
+
+11/22/2021 18:12:45.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:12:46.f Sent: PASS 1
+
+11/22/2021 18:12:46.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:12:58.f Sent: PASV 
+
+11/22/2021 18:12:58.f Received: b'277 Entering Passive Mode (127,0,0,1,231,33)\r\n'
+
+11/22/2021 18:12:58.f Connecting to: 127.0.0.1
+
+11/22/2021 18:12:58.f Sent: LIST 
+
+11/22/2021 18:12:58.f Received: b'150 prepare for data\r\n'
+
+11/22/2021 18:14:03.f Connecting to: 127.0.0.1
+
+11/22/2021 18:14:07.f Sent: USER qtm23
+
+11/22/2021 18:14:07.f Received: b'331 Please Provide Password\r\n'
+
+11/22/2021 18:14:08.f Sent: PASS 1
+
+11/22/2021 18:14:08.f Received: b'230 Successful Login\r\n'
+
+11/22/2021 18:14:21.f Sent: PASV 
+
+11/22/2021 18:14:21.f Received: b'421 Service not available.\r\n'
+
+11/23/2021 20:44:42.f Connecting to: 127.0.0.1
+
+11/23/2021 20:44:50.f Sent: USER qtm23
+
+11/23/2021 20:44:50.f Received: b'331 Please Provide Password\r\n'
+
+11/23/2021 20:44:52.f Sent: PASS 1
+
+11/23/2021 20:44:52.f Received: b'230 Successful Login\r\n'
+
+11/23/2021 20:44:55.f Sent: PWD 
+
+11/23/2021 20:44:55.f Received: b'257 current working Directory is: /Users/quentinmcknight/PycharmProjects/CS472_HW4/venv\r\n'
+
+11/23/2021 20:45:07.f Sent: PASV 
+
+11/23/2021 20:45:07.f Received: b'421 Service not available.\r\n'
+
